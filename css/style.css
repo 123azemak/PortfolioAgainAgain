@@ -11369,3 +11369,7 @@ header.masthead .bg-circle-4 {
     font-size: 4rem;
   }
 }
+
+.resizeText{
+    font-size: max(10vw, 16px);!important
+}
