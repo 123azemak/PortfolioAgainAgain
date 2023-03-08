@@ -11370,6 +11370,14 @@ header.masthead .bg-circle-4 {
   }
 }
 
-.resizeText{
-    font-size: max(10vw, 16px);!important
+.reveal{
+  position: relative;
+  transform: translateY(150px);
+  opacity: 0;
+  transition: 1s all ease;
+}
+
+.reveal.active{
+  transform: translateY(0);
+  opacity: 1;
 }
